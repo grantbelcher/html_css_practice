@@ -1,6 +1,11 @@
 body {
   margin: 0;
 }
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 header {
   color: rgb(255, 255, 255);
@@ -14,13 +19,40 @@ h1 {
   padding: 25px 0;
 }
 
+.main-content {
+  margin-right: 1rem;
+  max-width: 600px;
+}
+
+.sidebar {
+  max-width: 230px;
+  margin-left: 3rem;
+}
+
 .sub-heading {
   font-size: 48px;
   color: #fcd801;
   background-color: #281b2d;
   border-bottom: 5px solid #00c54c;
+  padding-left: 0.2em;
 }
 
 .sub-heading > span {
   color: white;
+}
+
+.columns {
+  display: flex;
+}
+
+.sub-col {
+  display: flex;
+}
+
+.sub-col > div {
+  margin-left: 1rem;
+}
+
+ol > li {
+  margin-top: 1em;
 }
