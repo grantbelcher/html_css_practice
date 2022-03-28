@@ -10,10 +10,18 @@ body {
   padding: 0;
 }
 
+body {
+  font-family: "PT Sans", sans-serif;
+  line-height: 1.4;
+  color: rgb(6, 186, 218);
+  background: #1a2623;
+  font-size: 21px;
+}
+
 .landing-page {
   height: 100vh;
   text-align: left;
-  padding-top: 20rem;
+  padding-top: 19rem;
   background-image: url("./images/kawasaki-jet-ski-sx-r-4.jpg");
   background-size: cover;
 }
@@ -21,9 +29,19 @@ body {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(199, 58, 58, 0.404);
+  padding: 1.5rem;
+  background-color: rgba(77, 15, 223, 0.842);
+  border-radius: 5px;
   /* margin-top: ; */
 }
+
+.container > a {
+  color: rgba(77, 15, 223, 0.842);
+  background-color: rgb(6, 186, 218);
+  border-radius: 3px;
+  padding: 1rem;
+}
+
 .color {
   background-color: red;
 }
