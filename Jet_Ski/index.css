@@ -42,6 +42,20 @@ body {
   padding: 1rem;
 }
 
-.color {
-  background-color: red;
+.main-page {
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+}
+
+.col {
+  background-color: rgb(77, 15, 223);
+  margin: 0.8rem;
+}
+
+.col-images {
+  height: 150px;
+  width: 150px;
 }
