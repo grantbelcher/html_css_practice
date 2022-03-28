@@ -27,6 +27,12 @@ h1 {
 .sidebar {
   width: 25%;
   margin-left: 3rem;
+  background-color: #9ae84f;
+  padding: 1%;
+}
+
+h2.sub-heading {
+  margin-top: 0;
 }
 
 .sub-heading {
@@ -54,5 +60,5 @@ h1 {
 }
 
 ol > li {
-  margin-top: 1em;
+  margin-top: 0.7em;
 }
