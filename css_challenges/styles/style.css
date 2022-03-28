@@ -21,11 +21,11 @@ h1 {
 
 .main-content {
   margin-right: 1rem;
-  max-width: 600px;
+  width: 60%;
 }
 
 .sidebar {
-  max-width: 230px;
+  width: 30px;
   margin-left: 3rem;
 }
 
