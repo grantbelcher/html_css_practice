@@ -13,3 +13,10 @@ h1 {
   text-align: center;
   padding: 25px 0;
 }
+
+.sub-heading {
+  font-size: 48px;
+  color: #fcd801;
+  background-color: #281b2d;
+  border-bottom: 5px solid #00c54c;
+}
