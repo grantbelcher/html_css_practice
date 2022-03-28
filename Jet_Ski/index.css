@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page {
+  height: 100vh;
+  text-align: left;
+  padding-top: 20rem;
+  background-image: url("./images/kawasaki-jet-ski-sx-r-4.jpg");
+  background-size: cover;
+}
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(199, 58, 58, 0.404);
+  /* margin-top: ; */
+}
+.color {
+  background-color: red;
+}
