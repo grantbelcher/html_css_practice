@@ -20,3 +20,7 @@ h1 {
   background-color: #281b2d;
   border-bottom: 5px solid #00c54c;
 }
+
+.sub-heading > span {
+  color: white;
+}
