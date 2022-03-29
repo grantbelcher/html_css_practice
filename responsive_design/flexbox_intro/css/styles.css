@@ -6,6 +6,12 @@ body {
   margin: 0;
 }
 
+@media (min-width: 600px) and (max-width: 1200px) {
+  body {
+    background: pink;
+  }
+}
+
 /* TYPOGRAPHY */
 
 h1 {
@@ -46,6 +52,13 @@ img {
   margin: 1em 0;
 }
 
+@media (max-width: 600px) {
+  .columns {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .col {
   border: solid 1px red;
   margin: 1em 0;
@@ -65,6 +78,19 @@ img {
 
 .col-bottom {
   width: 70%;
+}
+
+@media (max-width: 600px) {
+  .columns {
+    display: flex;
+    flex-direction: column;
+  }
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-bottom {
+    width: 100%;
+  }
 }
 
 .col-side {
