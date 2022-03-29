@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: pink;
+  width: 100%;
+}
+
+h1 {
+  width: 100%;
+  background: hotpink;
+  text-align: center;
+  padding-bottom: 1.2em;
+  padding-top: 0.8em;
+}
+
+img {
+  width: 100%;
+}
+.sect-1 {
+  background-color: red;
+}
+.sect-2 {
+  background-color: teal;
+}
+.columns {
+  display: flex;
+}
