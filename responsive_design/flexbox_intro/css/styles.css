@@ -21,6 +21,10 @@ h2 {
   font-size: 1.5rem;
 }
 
+p {
+  margin-top: 0;
+}
+
 /* LAYOUT */
 
 img {
@@ -41,9 +45,22 @@ img {
 
 .col {
   border: solid 1px red;
-  margin: 1em 0.2em;
+  margin: 1em 0;
   /* margin: 0.3em 0.6em;
   padding: 0 0.2em; */
+  width: 25%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-bottom {
+  width: 75%;
 }
 
 .col-side {
