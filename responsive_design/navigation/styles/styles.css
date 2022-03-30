@@ -201,7 +201,7 @@ nav a:focus {
   order: 1;
 }
 
-/* THIS WILL CHANGE LOCATION OF ARTICLE TITLE AND INFO BASED ON SCREEN SIZE */
+/* THIS WILL CHANGE LOCATION OF ARTICLE TITLE AND INFO BASED ON SCREEN SIZE  BUT ITS A HACK*/
 
 /* @media (min-width: 500px) {
   .article-info {
@@ -212,14 +212,20 @@ nav a:focus {
   }
 } */
 
+/* WIDGET STYLING */
+
 /* HIDE WIDGET TITLE ON MOBILE */
+.sidebar-widget {
+  margin-bottom: 3em;
+}
+
 .widget-title {
   display: none;
 }
 
 .sidebar-about {
-  border: 1em solid #ebebeb;
-  padding: 2.5em 1em 0 1em;
+  border: 1.2em solid #ebebeb;
+  padding: 2.5em 1.2em 0 1.2em;
 }
 .sidebar-about > img {
   width: 100%;
@@ -230,6 +236,38 @@ nav a:focus {
   font-size: 0.7rem;
   color: #143774;
   margin: 1.5em 0;
+}
+
+.sidebar-posts {
+  border: 1.2em solid #ebebeb;
+  padding: 1.2em 1.2em 0 1.2em;
+}
+
+.sidebar-posts > h2 {
+  font-size: 0.8rem;
+  font-family: "Ubuntu";
+  font-weight: 600;
+  margin-bottom: 1.75em;
+}
+
+.widget-recent-post {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 1px #ebebeb;
+  margin-bottom: 1em;
+}
+
+.widget-image {
+  width: 100%;
+  height: 75px;
+  object-fit: cover;
+  order: -1;
+  margin-bottom: 0.5em;
+}
+
+.widget-recent-post-title {
+  font-size: 0.75rem;
+  margin-bottom: 1.5em;
 }
 
 @media (min-width: 675px) {
