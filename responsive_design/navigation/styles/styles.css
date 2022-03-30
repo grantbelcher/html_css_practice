@@ -21,21 +21,22 @@ a {
 }
 
 .container {
-  /* background: pink; */
+  width: 90%;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 header {
-  /* margin: 0 auto; */
   background-color: #f8f8f8;
-  /* border: solid palegreen 1px; */
-  text-align: center;
   justify-content: space-around;
   align-items: center;
   color: #143774;
   padding: 2em 0;
-}
-
-.title {
 }
 
 .subtitle {
@@ -44,10 +45,6 @@ header {
   font-size: 0.75rem;
   color: #1792d2;
   margin: 0;
-}
-
-.nav {
-  /* border: solid black 1px; */
 }
 
 nav ul {
@@ -60,7 +57,7 @@ nav ul {
 
 nav li {
   /* border: 2px solid yellow; */
-  margin: 0 1em;
+  margin-left: 2em;
 }
 
 nav a {
