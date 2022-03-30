@@ -175,7 +175,7 @@ nav a:focus {
 
 /* ARTICLES */
 .article-info {
-  margin: 2em 0;
+  margin: 2em 0 2em 0;
 }
 
 .article-featured {
@@ -190,12 +190,25 @@ nav a:focus {
   margin-bottom: 2em;
 }
 
+/* THIS REORDERS THE CONTENTS OF RECENT ARTICLES */
+
 .article-recent-main {
   order: 2;
 }
 
 .article-recent-secondary {
   order: 1;
+}
+
+/* THIS WILL CHANGE LOCATION OF ARTICLE TITLE AND INFO BASED ON SCREEN SIZE */
+
+@media (min-width: 500px) {
+  .article-info {
+    text-align: right;
+  }
+  .article-recent-main {
+    margin-top: -3.2em;
+  }
 }
 
 /* FOOTER */
