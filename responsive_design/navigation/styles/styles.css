@@ -212,6 +212,26 @@ nav a:focus {
   }
 } */
 
+/* HIDE WIDGET TITLE ON MOBILE */
+.widget-title {
+  display: none;
+}
+
+.sidebar-about {
+  border: 1em solid #ebebeb;
+  padding: 2.5em 1em 0 1em;
+}
+.sidebar-about > img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+.widget-body {
+  font-size: 0.7rem;
+  color: #143774;
+  margin: 1.5em 0;
+}
+
 @media (min-width: 675px) {
   .article-recent {
     flex-direction: row;
