@@ -28,6 +28,7 @@ h3 {
   font-family: "Lora", serif;
   font-weight: 400;
   color: #143774;
+  margin-top: 0;
 }
 
 h1 {
@@ -181,6 +182,20 @@ nav a:focus {
   padding-bottom: 2em;
   border-bottom: 1px solid #707070;
   margin-bottom: 2em;
+}
+
+.article-recent {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+.article-recent-main {
+  order: 2;
+}
+
+.article-recent-secondary {
+  order: 1;
 }
 
 /* FOOTER */
