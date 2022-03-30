@@ -104,6 +104,25 @@ header {
   text-align: center;
 }
 
+/* @media (min-width = 675px) {
+  header {
+    background-color: #1792d2;
+  }
+} */
+
+@media (min-width: 675px) {
+  .container-flex {
+    flex-direction: row;
+  }
+  main {
+    width: 75%;
+  }
+  aside {
+    width: 20%;
+  }
+}
+
+/* NAVIGATION */
 nav ul {
   list-style: none;
   display: flex;
@@ -149,6 +168,7 @@ nav a:focus {
   }
   nav li {
     margin: 0.4em 0;
+    /* color: red; */
   }
 }
 
