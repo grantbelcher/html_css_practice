@@ -5,25 +5,16 @@
  */
 body {
   margin: 0 auto;
-  font-size: 14;
-}
-
-h1 {
-  margin: 0;
-  font-size: 1rem;
-}
-
-p {
-  margin: 0;
+  font-family: "Lora", serif;
+  /* font-size: 14; */
 }
 
 .container {
-  max-width: 1000;
-  height: 30vh;
   margin: 0 auto;
   background-color: aquamarine;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column; */
   justify-content: space-around;
   align-items: center;
 }
@@ -31,24 +22,33 @@ p {
 .title {
   border: solid red 1px;
   font-family: "Lora", serif;
-  width: 20%;
 }
 
 .subtitle {
   font-family: Ubuntu bold;
-  font-size: 0.35rem;
 }
 
 .nav {
   border: solid black 1px;
 }
 
-.links {
+nav ul {
+  list-style: none;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid pink;
+  padding: 0;
 }
 
-li {
-  font-family: Ubuntu bold;
-  font-size: 0.35;
+nav li {
+  border: 2px solid yellow;
+  margin: 0 1em;
+}
+
+nav a {
+  border: 2px solid green;
+}
+
+nav a:hover {
 }
