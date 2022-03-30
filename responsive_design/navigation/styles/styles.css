@@ -1,0 +1,54 @@
+/*  Fonts
+    -----
+    font-family: 'Lora', serif;
+    font-family: 'Ubuntu', sans-serif;
+ */
+body {
+  margin: 0 auto;
+  font-size: 14;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1000;
+  height: 30vh;
+  margin: 0 auto;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  border: solid red 1px;
+  font-family: "Lora", serif;
+  width: 20%;
+}
+
+.subtitle {
+  font-family: Ubuntu bold;
+  font-size: 0.35rem;
+}
+
+.nav {
+  border: solid black 1px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  font-family: Ubuntu bold;
+  font-size: 0.35;
+}
