@@ -76,3 +76,31 @@ nav a:focus {
   border-bottom: 1.4px solid #707070;
   padding: 0.1em;
 }
+
+@media (max-width: 675px) {
+  .container-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  nav li {
+    margin: 0.4em 0;
+  }
+}
