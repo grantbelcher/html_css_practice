@@ -57,6 +57,14 @@ strong {
   margin: 0;
 }
 
+.subheader-about {
+  font-family: "Lora" bold;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #1792d2;
+  margin-bottom: 0;
+}
+
 li > a {
   font-weight: 600;
 }
@@ -217,6 +225,13 @@ nav a:focus {
 
 .image-featured {
   max-height: 225px;
+}
+
+/* ABOUT ME PAGE */
+
+.image-about-me {
+  max-height: 225px;
+  margin-bottom: 1.5em;
 }
 
 /* THIS WILL CHANGE LOCATION OF ARTICLE TITLE AND INFO BASED ON SCREEN SIZE  BUT ITS A HACK*/
