@@ -209,6 +209,16 @@ nav a:focus {
   order: 1;
 }
 
+.article-image {
+  width: 100%;
+  min-height: 200px;
+  object-fit: cover;
+}
+
+.image-featured {
+  max-height: 200px;
+}
+
 /* THIS WILL CHANGE LOCATION OF ARTICLE TITLE AND INFO BASED ON SCREEN SIZE  BUT ITS A HACK*/
 
 /* @media (min-width: 500px) {
@@ -304,12 +314,6 @@ nav a:focus {
 
   .article-featured > .article-info {
     order: -1;
-  }
-
-  .article-image {
-    width: 100%;
-    min-height: 200px;
-    object-fit: cover;
   }
 
   /* SIDEBAR */
