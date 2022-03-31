@@ -11,7 +11,6 @@
 
 body {
   margin: 0 auto;
-  border: solid 1px navy;
   /* height: 100vh; */
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
@@ -104,6 +103,13 @@ header {
   padding: 1em 0;
   text-align: center;
   margin-bottom: 3em;
+}
+
+footer {
+  background-color: #143774;
+  color: white;
+  text-align: center;
+  padding: 2.5em 0;
 }
 
 /* @media (min-width = 675px) {
@@ -272,7 +278,7 @@ nav a:focus {
   margin-bottom: 1.5em;
 }
 
-#widget-last {
+.widget-recent-post:last-child {
   border: none;
 }
 
