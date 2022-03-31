@@ -121,6 +121,8 @@ header {
   }
   aside {
     width: 22%;
+    min-width: 200px;
+    margin-left: 1em;
   }
 }
 
