@@ -43,7 +43,13 @@
           required
         />
         <label for="user_password">*password: </label>
-        <input type="password" name="password" id="user_password" required />
+        <input
+          type="password"
+          name="password"
+          id="user_password"
+          minlength="5"
+          required
+        />
         <label for="amount">Amount: </label
         ><input type="number" name="amount" id="amount" placeholder="420" />
         <label for="dob">Date of Birth: </label
@@ -56,6 +62,7 @@
         cols="30"
         rows="10"
         placeholder="Tell us a little bit about yourself...."
+        maxlength="140"
       ></textarea>
       <select name="Car" id="">
         <option value="Mercedes">Mercedes</option>
