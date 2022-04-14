@@ -14,6 +14,8 @@
   <body>
     <h1>Form Practice</h1>
     <form action="http://httpbin.org/post" method="post">
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
       <fieldset class="contact">
         <legend>Contact Details</legend>
         <label for="first_name">First Name:</label>
@@ -32,15 +34,16 @@
         />
         <label for="age">Age:</label>
         <input type="text" name="age" id="age" placeholder="69..." />
-        <label for="email">Email Address:</label>
+        <label for="email">*Email Address:</label>
         <input
           type="email"
           name="email"
           id="email"
           placeholder="example@hotmail.com"
+          required
         />
-        <label for="user_password">password: </label>
-        <input type="password" name="password" id="user_password" />
+        <label for="user_password">*password: </label>
+        <input type="password" name="password" id="user_password" required />
         <label for="amount">Amount: </label
         ><input type="number" name="amount" id="amount" placeholder="420" />
         <label for="dob">Date of Birth: </label
