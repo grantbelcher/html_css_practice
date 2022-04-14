@@ -52,6 +52,13 @@ fieldset > input {
   margin-bottom: 0;
 }
 
+input:invalid {
+  border-color: red;
+}
+input:valid {
+  border-color: green;
+}
+
 /* textarea {
   margin-top: 1rem;
 } */
