@@ -2,28 +2,32 @@
   /* height: 90vh; */
   display: grid;
   grid-gap: 3px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(10, 1fr);
   grid-template-rows: 40px 200px 40px;
 }
 
 .header {
-  grid-column: 1 / 3;
+  grid-column: 1 / -1;
 }
 
 .main {
+  grid-column: 2 / -1;
 }
 
 .menu {
   background-color: palegreen;
+  grid-column: 1 / 4;
 }
 
 .content {
   background-color: palevioletred;
+  grid-column: 4 / -1;
 }
 
 .footer {
-  /* SAME LAYOUT AS ABOVE, STARTS AT COLUMN 1 and SPANS 2 column lines */
-  grid-column: 1 / span 2;
-  /* SAME LAYOUT, DIFFERENT NOTATION, -1 represents last column line
-  grid-column: 1 / -1; */
+  /* SAME LAYOUT AS HEADER, STARTS AT COLUMN 1 and SPANS 2 column lines */
+  /* grid-column: 1 / span 2; */
+
+  /* SAME LAYOUT, DIFFERENT NOTATION, -1 represents last column line */
+  grid-column: 1 / -1;
 }
