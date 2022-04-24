@@ -10,11 +10,11 @@ body {
 
 .container {
   /* margin: 2em; */
-  border: solid thin black;
+  /* border: solid thin black; */
   height: 50vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50% 50%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat (2 1fr);
   grid-gap: 3px;
 }
 
