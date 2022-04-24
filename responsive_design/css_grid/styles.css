@@ -1,20 +1,19 @@
 .container {
-  height: 90vh;
+  /* height: 90vh; */
   display: grid;
   grid-gap: 3px;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 40px auto 40px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 40px 200px 40px;
 }
 
 .header {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .main {
-  height: 100%;
-  /* background-color: yellow; */
-  display: grid;
-  grid-template-columns: 3fr 7fr;
-  grid-template-rows: 1fr;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .menu {
@@ -26,4 +25,6 @@
 }
 
 .footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
