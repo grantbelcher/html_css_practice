@@ -1,0 +1,28 @@
+html,
+body {
+  background-color: palegoldenrod;
+  margin: 20px;
+}
+
+.container {
+  border: solid thin black;
+}
+
+.container > div {
+  color: palegoldenrod;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container > div:nth-child(1n) {
+  background-color: paleturquoise;
+}
+
+.container > div:nth-child(2n) {
+  background-color: palevioletred;
+}
+
+.container > div:nth-child(4n) {
+  background-color: gold;
+}
