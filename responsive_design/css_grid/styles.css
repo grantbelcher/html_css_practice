@@ -1,39 +1,18 @@
-html {
-  background-color: palegoldenrod;
-  /* margin: 20px;
-  width: 80%; */
-}
-body {
-  margin: 0 auto;
-  width: 100vw;
-}
-
 .container {
-  /* margin: 2em; */
-  /* border: solid thin black; */
-  height: 50vh;
   display: grid;
-  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-  /* grid-template-rows: repeat (2 1fr); */
   grid-gap: 3px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 40px 40px;
 }
 
-.container > div {
-  color: palegoldenrod;
-  font-size: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.header {
 }
 
-.container > div:nth-child(1n) {
-  background-color: paleturquoise;
+.menu {
 }
 
-.container > div:nth-child(2n) {
-  background-color: palevioletred;
+.content {
 }
 
-.container > div:nth-child(4n) {
-  background-color: gold;
+.footer {
 }
