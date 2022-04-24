@@ -1,11 +1,21 @@
-html,
-body {
+html {
   background-color: palegoldenrod;
-  margin: 20px;
+  /* margin: 20px;
+  width: 80%; */
+}
+body {
+  margin: 0 auto;
+  width: 100vw;
 }
 
 .container {
+  /* margin: 2em; */
   border: solid thin black;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 33% 33% auto;
+  grid-template-rows: 50% 50%;
+  grid-gap: 3px;
 }
 
 .container > div {
@@ -13,6 +23,7 @@ body {
   font-size: 2rem;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .container > div:nth-child(1n) {
