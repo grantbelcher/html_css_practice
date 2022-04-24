@@ -13,7 +13,7 @@ body {
   border: solid thin black;
   height: 50vh;
   display: grid;
-  grid-template-columns: 33% 33% auto;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 50% 50%;
   grid-gap: 3px;
 }
