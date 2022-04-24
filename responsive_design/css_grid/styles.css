@@ -1,17 +1,28 @@
 .container {
+  height: 90vh;
   display: grid;
   grid-gap: 3px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 40px 40px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 40px auto 40px;
 }
 
 .header {
 }
 
+.main {
+  height: 100%;
+  /* background-color: yellow; */
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  grid-template-rows: 1fr;
+}
+
 .menu {
+  background-color: palegreen;
 }
 
 .content {
+  background-color: palevioletred;
 }
 
 .footer {
